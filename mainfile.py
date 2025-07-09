@@ -65,3 +65,4 @@ else:
     })
     label_df.to_csv(LABELS_CSV_PATH, index=False)
     print(f"✅ Labels sauvegardés dans {LABELS_CSV_PATH}")
+print("📊 Génération terminée.")
